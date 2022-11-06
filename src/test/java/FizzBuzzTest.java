@@ -12,5 +12,13 @@ public class FizzBuzzTest {
         Assertions.assertEquals(expected, actual);
     }
 
+    @Test
+    public void test_of_1is1() {
+        int expected = 1;
+        int actual = FizzBuzz.of(1);
+
+        Assertions.assertEquals(expected, actual);
+    }
+
 
 }

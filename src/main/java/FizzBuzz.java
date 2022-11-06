@@ -1,6 +1,6 @@
 public class FizzBuzz {
 
     public static int of(int i) {
-        return 0;
+        return i;
     }
 }
