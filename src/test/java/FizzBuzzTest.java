@@ -52,4 +52,12 @@ public class FizzBuzzTest {
         Assertions.assertEquals(expected, actual);
     }
 
+    @Test
+    public void test_of_15isFizzBuzz() {
+        String expected = "FizzBuzz";
+        String actual = FizzBuzz.of(15);
+
+        Assertions.assertEquals(expected, actual);
+    }
+
 }
