@@ -28,4 +28,12 @@ public class FizzBuzzTest {
         Assertions.assertEquals(expected, actual);
     }
 
+    @Test
+    public void test_of_5isBuzz() {
+        String expected = "Buzz";
+        String actual = FizzBuzz.of(5);
+
+        Assertions.assertEquals(expected, actual);
+    }
+
 }
